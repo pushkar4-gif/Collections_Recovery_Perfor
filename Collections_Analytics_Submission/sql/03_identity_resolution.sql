@@ -1,0 +1,5 @@
+-- Account ID is the safest available event-to-account join key in this extract.
+CREATE OR REPLACE VIEW clean.event_account_bridge AS SELECT 'payments' source_table,p.payment_id event_id,p.account_id,p.event_borrower_id,a.borrower_id master_borrower_id, CASE WHEN a.account_id IS NULL THEN 'ORPHAN_ACCOUNT' WHEN p.event_borrower_id IS DISTINCT FROM a.borrower_id THEN 'BORROWER_MISMATCH' ELSE 'MATCH' END identity_status FROM stg.payments p LEFT JOIN stg.accounts a USING(account_id);
+-- Repeat the same pattern for calls, attempts, PTP, digital events, visits and complaints.
+-- Never use event borrower_id as a join key until an effective-dated borrower-account bridge exists.
+CREATE OR REPLACE VIEW clean.agent_identity_conflicts AS SELECT agent_id,COUNT(*) rows,COUNT(DISTINCT employee_code) employee_codes,COUNT(DISTINCT agent_name) names,COUNT(DISTINCT vendor_id) vendors,COUNT(DISTINCT team) teams FROM raw.agents GROUP BY agent_id HAVING COUNT(DISTINCT employee_code)>1 OR COUNT(DISTINCT agent_name)>1 OR COUNT(DISTINCT vendor_id)>1 OR COUNT(DISTINCT team)>1;

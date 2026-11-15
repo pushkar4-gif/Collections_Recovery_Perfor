@@ -1,0 +1,12 @@
+dataset,rows,matched_account_rows,orphan_account_rows,borrower_id_mismatch_rows,mismatch_pct_of_matched_nonnull
+accounts,30000,29545,455,0,0.0
+sms_events,45000,44267,733,44262,99.99
+field_visits,25000,24623,377,24621,99.99
+account_status_history,60000,59038,962,59035,99.99
+call_dispositions,35000,34476,524,34474,99.99
+payments,25500,25114,386,25113,100.0
+complaints,8000,7893,107,7892,99.99
+call_attempts,120000,118137,1863,118126,99.99
+promises_to_pay,18000,17707,293,17706,99.99
+calls,91350,89947,1403,89939,99.99
+whatsapp_events,60600,59677,923,59673,99.99

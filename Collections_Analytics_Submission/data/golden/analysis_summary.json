@@ -1,0 +1,428 @@
+{
+  "rows": {
+    "accounts": 30000,
+    "sms_events": 45000,
+    "field_visits": 25000,
+    "agents": 30000,
+    "agent_sessions": 15000,
+    "account_status_history": 60000,
+    "call_dispositions": 35000,
+    "payments": 25500,
+    "complaints": 8000,
+    "borrowers": 30600,
+    "call_attempts": 120000,
+    "vendor_telephony": 15,
+    "daily_targeting": 45000,
+    "promises_to_pay": 18000,
+    "campaigns": 120,
+    "calls": 91350,
+    "data_dictionary": 143,
+    "whatsapp_events": 60600
+  },
+  "exact_duplicates": {
+    "accounts": 0,
+    "sms_events": 0,
+    "field_visits": 0,
+    "agents": 0,
+    "agent_sessions": 0,
+    "account_status_history": 0,
+    "call_dispositions": 0,
+    "payments": 486,
+    "complaints": 0,
+    "borrowers": 600,
+    "call_attempts": 0,
+    "vendor_telephony": 0,
+    "daily_targeting": 0,
+    "promises_to_pay": 0,
+    "campaigns": 0,
+    "calls": 1271,
+    "data_dictionary": 0,
+    "whatsapp_events": 600
+  },
+  "monthly_metrics": [
+    {
+      "month": "2026-01",
+      "portfolio_accounts_snapshot": 30000,
+      "successful_payment_rows": 2464,
+      "successful_payment_ids_nunique": 2464,
+      "paying_accounts": 2374,
+      "gross_success_inr": 187229127.58999997,
+      "reversed_rows": 174,
+      "reversed_amount_inr": 11631225.06,
+      "payer_rate_snapshot": 0.07913333333333333,
+      "gross_recovery_per_snapshot_account": 6240.970919666665
+    },
+    {
+      "month": "2026-02",
+      "portfolio_accounts_snapshot": 30000,
+      "successful_payment_rows": 2270,
+      "successful_payment_ids_nunique": 2268,
+      "paying_accounts": 2173,
+      "gross_success_inr": 170279614.97000003,
+      "reversed_rows": 140,
+      "reversed_amount_inr": 11477682.669999998,
+      "payer_rate_snapshot": 0.07243333333333334,
+      "gross_recovery_per_snapshot_account": 5675.987165666667
+    },
+    {
+      "month": "2026-03",
+      "portfolio_accounts_snapshot": 30000,
+      "successful_payment_rows": 2527,
+      "successful_payment_ids_nunique": 2524,
+      "paying_accounts": 2419,
+      "gross_success_inr": 189190326.57999998,
+      "reversed_rows": 187,
+      "reversed_amount_inr": 14372369.75,
+      "payer_rate_snapshot": 0.08063333333333333,
+      "gross_recovery_per_snapshot_account": 6306.344219333333
+    },
+    {
+      "month": "2026-04",
+      "portfolio_accounts_snapshot": 30000,
+      "successful_payment_rows": 2407,
+      "successful_payment_ids_nunique": 2406,
+      "paying_accounts": 2304,
+      "gross_success_inr": 175228930.17000002,
+      "reversed_rows": 177,
+      "reversed_amount_inr": 13327361.41,
+      "payer_rate_snapshot": 0.0768,
+      "gross_recovery_per_snapshot_account": 5840.964339
+    },
+    {
+      "month": "2026-05",
+      "portfolio_accounts_snapshot": 30000,
+      "successful_payment_rows": 2450,
+      "successful_payment_ids_nunique": 2449,
+      "paying_accounts": 2344,
+      "gross_success_inr": 184335483.66,
+      "reversed_rows": 160,
+      "reversed_amount_inr": 12690920.44,
+      "payer_rate_snapshot": 0.07813333333333333,
+      "gross_recovery_per_snapshot_account": 6144.516122
+    },
+    {
+      "month": "2026-06",
+      "portfolio_accounts_snapshot": 30000,
+      "successful_payment_rows": 2369,
+      "successful_payment_ids_nunique": 2366,
+      "paying_accounts": 2286,
+      "gross_success_inr": 175853449.85999998,
+      "reversed_rows": 173,
+      "reversed_amount_inr": 12949477.35,
+      "payer_rate_snapshot": 0.0762,
+      "gross_recovery_per_snapshot_account": 5861.781661999999
+    },
+    {
+      "month": "2026-07",
+      "portfolio_accounts_snapshot": 30000,
+      "successful_payment_rows": 2442,
+      "successful_payment_ids_nunique": 2441,
+      "paying_accounts": 2335,
+      "gross_success_inr": 187247836.0,
+      "reversed_rows": 199,
+      "reversed_amount_inr": 15266393.46,
+      "payer_rate_snapshot": 0.07783333333333334,
+      "gross_recovery_per_snapshot_account": 6241.594533333333
+    },
+    {
+      "month": "2026-08",
+      "portfolio_accounts_snapshot": 30000,
+      "successful_payment_rows": 616,
+      "successful_payment_ids_nunique": 616,
+      "paying_accounts": 608,
+      "gross_success_inr": 47109695.31,
+      "reversed_rows": 45,
+      "reversed_amount_inr": 2959050.67,
+      "payer_rate_snapshot": 0.020266666666666665,
+      "gross_recovery_per_snapshot_account": 1570.323177
+    }
+  ],
+  "date_ranges": [
+    {
+      "dataset": "accounts",
+      "column": "opened_at",
+      "valid_timestamps": 30000,
+      "min_utc": "2024-01-01 00:02:27+00:00",
+      "max_utc": "2025-11-30 23:52:36+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "sms_events",
+      "column": "event_at",
+      "valid_timestamps": 45000,
+      "min_utc": "2026-01-01 00:04:16+00:00",
+      "max_utc": "2026-08-08 23:46:06+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "field_visits",
+      "column": "event_at",
+      "valid_timestamps": 25000,
+      "min_utc": "2026-01-01 00:07:53+00:00",
+      "max_utc": "2026-08-08 23:50:03+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "field_visits",
+      "column": "scheduled_at",
+      "valid_timestamps": 24750,
+      "min_utc": "2025-12-31 05:21:55+00:00",
+      "max_utc": "2026-08-08 21:50:07+00:00",
+      "invalid_or_missing": 250
+    },
+    {
+      "dataset": "agents",
+      "column": "joined_at",
+      "valid_timestamps": 30000,
+      "min_utc": "2024-01-01 00:10:05+00:00",
+      "max_utc": "2025-11-30 23:23:30+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "agents",
+      "column": "updated_at",
+      "valid_timestamps": 30000,
+      "min_utc": "2025-01-01 00:57:32+00:00",
+      "max_utc": "2026-08-03 23:45:38+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "agent_sessions",
+      "column": "login_at",
+      "valid_timestamps": 15000,
+      "min_utc": "2026-01-01 00:01:57+00:00",
+      "max_utc": "2026-08-08 23:51:54+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "agent_sessions",
+      "column": "logout_at",
+      "valid_timestamps": 15000,
+      "min_utc": "2026-01-01 04:48:48+00:00",
+      "max_utc": "2026-08-09 07:50:12+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "account_status_history",
+      "column": "event_at",
+      "valid_timestamps": 60000,
+      "min_utc": "2026-01-01 00:01:08+00:00",
+      "max_utc": "2026-08-08 23:50:45+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "account_status_history",
+      "column": "recorded_at",
+      "valid_timestamps": 60000,
+      "min_utc": "2025-12-31 01:26:29+00:00",
+      "max_utc": "2026-08-09 22:02:27+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "call_dispositions",
+      "column": "event_at",
+      "valid_timestamps": 35000,
+      "min_utc": "2026-01-01 00:10:00+00:00",
+      "max_utc": "2026-08-08 23:50:50+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "payments",
+      "column": "event_at",
+      "valid_timestamps": 25500,
+      "min_utc": "2026-01-01 00:14:40+00:00",
+      "max_utc": "2026-08-08 23:50:23+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "complaints",
+      "column": "event_at",
+      "valid_timestamps": 8000,
+      "min_utc": "2026-01-01 00:38:02+00:00",
+      "max_utc": "2026-08-08 23:35:33+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "complaints",
+      "column": "resolution_at",
+      "valid_timestamps": 8000,
+      "min_utc": "2026-01-02 07:36:01+00:00",
+      "max_utc": "2026-08-26 13:22:27+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "borrowers",
+      "column": "created_at",
+      "valid_timestamps": 30600,
+      "min_utc": "2025-01-01 00:14:38+00:00",
+      "max_utc": "2026-08-03 23:37:55+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "borrowers",
+      "column": "updated_at",
+      "valid_timestamps": 30600,
+      "min_utc": "2025-01-01 00:19:40+00:00",
+      "max_utc": "2026-08-03 23:48:36+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "call_attempts",
+      "column": "event_at",
+      "valid_timestamps": 120000,
+      "min_utc": "2026-01-01 00:01:18+00:00",
+      "max_utc": "2026-08-08 23:58:40+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "daily_targeting",
+      "column": "target_date",
+      "valid_timestamps": 45000,
+      "min_utc": "2026-01-01 00:00:00+00:00",
+      "max_utc": "2026-08-08 00:00:00+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "promises_to_pay",
+      "column": "event_at",
+      "valid_timestamps": 18000,
+      "min_utc": "2026-01-01 00:24:14+00:00",
+      "max_utc": "2026-08-08 23:59:33+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "promises_to_pay",
+      "column": "promised_date",
+      "valid_timestamps": 18000,
+      "min_utc": "2026-01-02 04:36:18+00:00",
+      "max_utc": "2026-09-06 21:23:52+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "campaigns",
+      "column": "start_at",
+      "valid_timestamps": 120,
+      "min_utc": "2026-01-01 09:34:51+00:00",
+      "max_utc": "2026-05-29 20:31:27+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "campaigns",
+      "column": "end_at",
+      "valid_timestamps": 120,
+      "min_utc": "2026-01-16 12:12:50+00:00",
+      "max_utc": "2026-08-16 18:13:39+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "calls",
+      "column": "event_at",
+      "valid_timestamps": 91350,
+      "min_utc": "2025-12-29 06:52:37+00:00",
+      "max_utc": "2026-08-12 15:43:05+00:00",
+      "invalid_or_missing": 0
+    },
+    {
+      "dataset": "whatsapp_events",
+      "column": "event_at",
+      "valid_timestamps": 60600,
+      "min_utc": "2026-01-01 00:01:49+00:00",
+      "max_utc": "2026-08-08 23:56:16+00:00",
+      "invalid_or_missing": 0
+    }
+  ],
+  "identity_reconciliation": [
+    {
+      "dataset": "accounts",
+      "rows": 30000,
+      "matched_account_rows": 29545,
+      "orphan_account_rows": 455,
+      "borrower_id_mismatch_rows": 0,
+      "mismatch_pct_of_matched_nonnull": 0.0
+    },
+    {
+      "dataset": "sms_events",
+      "rows": 45000,
+      "matched_account_rows": 44267,
+      "orphan_account_rows": 733,
+      "borrower_id_mismatch_rows": 44262,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    },
+    {
+      "dataset": "field_visits",
+      "rows": 25000,
+      "matched_account_rows": 24623,
+      "orphan_account_rows": 377,
+      "borrower_id_mismatch_rows": 24621,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    },
+    {
+      "dataset": "account_status_history",
+      "rows": 60000,
+      "matched_account_rows": 59038,
+      "orphan_account_rows": 962,
+      "borrower_id_mismatch_rows": 59035,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    },
+    {
+      "dataset": "call_dispositions",
+      "rows": 35000,
+      "matched_account_rows": 34476,
+      "orphan_account_rows": 524,
+      "borrower_id_mismatch_rows": 34474,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    },
+    {
+      "dataset": "payments",
+      "rows": 25500,
+      "matched_account_rows": 25114,
+      "orphan_account_rows": 386,
+      "borrower_id_mismatch_rows": 25113,
+      "mismatch_pct_of_matched_nonnull": 100.0
+    },
+    {
+      "dataset": "complaints",
+      "rows": 8000,
+      "matched_account_rows": 7893,
+      "orphan_account_rows": 107,
+      "borrower_id_mismatch_rows": 7892,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    },
+    {
+      "dataset": "call_attempts",
+      "rows": 120000,
+      "matched_account_rows": 118137,
+      "orphan_account_rows": 1863,
+      "borrower_id_mismatch_rows": 118126,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    },
+    {
+      "dataset": "promises_to_pay",
+      "rows": 18000,
+      "matched_account_rows": 17707,
+      "orphan_account_rows": 293,
+      "borrower_id_mismatch_rows": 17706,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    },
+    {
+      "dataset": "calls",
+      "rows": 91350,
+      "matched_account_rows": 89947,
+      "orphan_account_rows": 1403,
+      "borrower_id_mismatch_rows": 89939,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    },
+    {
+      "dataset": "whatsapp_events",
+      "rows": 60600,
+      "matched_account_rows": 59677,
+      "orphan_account_rows": 923,
+      "borrower_id_mismatch_rows": 59673,
+      "mismatch_pct_of_matched_nonnull": 99.99
+    }
+  ],
+  "agent_id_unique": 1000,
+  "agent_employee_code_unique": 1099,
+  "payment_exact_dup_rows": 486,
+  "payment_exact_dup_success_amount": 50022924.38
+}
