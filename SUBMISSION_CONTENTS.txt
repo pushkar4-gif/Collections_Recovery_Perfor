@@ -10,6 +10,4 @@ Other files
 - src/: Python scripts used to create the analysis outputs.
 - data/raw/: original files supplied for the assignment.
 - data/golden/: cleaned and summarized data used in the analysis.
-- figures/ and reports/architecture.png: charts and architecture diagram.
-
-Start with README.md for the project overview.
+- figures/ and reports/architecture.png: charts and architecture diagram
